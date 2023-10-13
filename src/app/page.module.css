@@ -1,8 +1,49 @@
 .main {
   position: relative;
   display: grid;
+  min-height: 100vh;
   grid-template-columns: 14em 1fr;
+  grid-template-rows: auto 1fr;
   background-color: var(--accent-two);
+}
+
+.home {
+  position: relative;
+  grid-area: 2 / 2 / span 1 / span 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url('../../public/nba-logo.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+  height: 85vh;
+}
+
+.homeContent {
+  position: absolute;
+  bottom: 4em;
+  align-items: center;
+}
+
+.homeContent > h1 {
+  font-size: 3em;
+  text-align: center;
+  color: var(--accent-three);
+}
+
+.homeContent > a {
+  margin-top: 1em;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: bold;
+  transition: 0.4s ease;
+}
+
+.homeContent > a:hover {
+  color: var(--accent-three);
 }
 
 .teams {
