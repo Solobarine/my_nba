@@ -33,11 +33,13 @@
 .socialLink > img {
   margin-right: 1em;
   width: 2em;
+  background-color: #eee;
 }
 
 .socialLink:hover {
   transform: translateY(-0.2em);
   scale: 1.2;
+  cursor: pointer;
 }
 
 .stadiumImage {
