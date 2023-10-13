@@ -3,15 +3,21 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Live Demo](#live-demo)
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
+- [Support](#support)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
 
 The NBA Teams Information Project is a simple web application that provides information about all NBA teams. It allows users to view details and statistics for each team in the National Basketball Association. Whether you're a basketball enthusiast, a data analyst, or just a casual fan, this project can be a valuable resource for exploring the world of NBA teams.
+
+## Live Demo
+
+You can view the Project Demo [here](https://my-nba-solobarine.vercel.app)
 
 ## Features
 
@@ -39,13 +45,13 @@ To get started with the NBA Teams Information Project, follow these steps:
 2. **Install Dependencies:**
 
    ```bash
-       npm install
+    npm install
    ```
 
 3. **Run the Application:**
 
    ```bash
-       npm start
+    npm start
    ```
 
 **Access the Application:**
@@ -61,6 +67,10 @@ Open your web browser and navigate [here](http://localhost:3000) to access the N
 - Connect with the team through social media links.
 
 - Enjoy exploring the world of NBA teams and their rich history.
+
+## Support
+
+If You love the Project, Kindly leave a :star:
 
 ## Contributing
 
