@@ -1,0 +1,52 @@
+.main {
+  position: relative;
+  display: grid;
+  flex-basis: 10em;
+  height: 13em;
+  border-radius: 1em;
+  border: 3px solid var(--accent-three);
+  gap: 0.6em;
+  align-items: center;
+  background-color: var(--accent-one);
+}
+.logo {
+  position: absolute;
+  top: 0.6em;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  margin: auto;
+  width: 8em;
+}
+
+.main:where(img, a, p) {
+  text-align: center;
+}
+
+.info {
+  position: absolute;
+  bottom: 0.5em;
+  width: 88%;
+  margin-left: 2%;
+  background-color: rgba(var(--accent-two), 0.5);
+  padding: 0.5em;
+  border-radius: 0.5em;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+  gap: 0.6em;
+}
+
+.info a {
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  transition: 0.4s ease;
+}
+
+.info a:hover {
+  color: var(--accent-three);
+}

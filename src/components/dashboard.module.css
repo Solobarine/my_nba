@@ -1,0 +1,44 @@
+.main {
+  position: relative;
+  grid-area: 2 / 1 / span 2 / span 1;
+  display: grid;
+  place-items: center;
+  padding: 1em;
+  background-color: var(--accent-one);
+}
+
+.head {
+  top: 7em;
+  letter-spacing: 1em;
+  position: fixed;
+  white-space: nowrap;
+  font-size: 3em;
+  transform: rotate(-90deg);
+}
+
+.imageContainer {
+  position: sticky;
+  top: 0.01em;
+  z-index: 2;
+  border-bottom: 0.3em solid var(--accent-three);
+  grid-area: 1 / 1 / span 1 / span 2;
+  padding: 0.2em 0.5em;
+  background-color: var(--accent-one);
+}
+
+.image {
+  width: 1em;
+}
+
+.footer {
+  grid-column: 2 / -1;
+  padding: 1em;
+  text-align: center;
+  background-color: var(--accent-one);
+}
+
+@media screen and (max-width: 700px) {
+  .main {
+    display: none;
+  }
+}

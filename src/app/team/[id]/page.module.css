@@ -1,0 +1,83 @@
+.team {
+  padding: 0.5em 2em;
+  grid-area: 2 / 2 / span 1 / span 1;
+}
+
+.logo {
+  width: 12em;
+}
+
+.teamName {
+  margin: 0.6em 0;
+}
+
+.description {
+  margin-bottom: 2em;
+}
+
+.heading {
+  margin-top: 1em;
+  padding: 1em 0.5em;
+  border: 1px 0 solid var(--accent-three);
+  background-color: var(--accent-one);
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 2em 0;
+}
+
+.socialLink > img {
+  margin-right: 1em;
+  width: 2em;
+}
+
+.socialLink:hover {
+  transform: translateY(3em);
+  margin-top: 300px;
+  scale: 1.5;
+}
+
+.stadiumImage {
+  width: 80%;
+  max-width: 20em;
+  display: block;
+  margin: 1em auto;
+}
+
+.jerseyAndLogo {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 2em 0;
+}
+
+.jerseyAndLogo > img {
+  width: 10em;
+}
+
+.fanArt {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 2em auto;
+}
+
+.fanArt > img {
+  display: block;
+  width: 14em;
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: 700px) {
+  .team {
+    padding: 0.6em;
+  }
+}
