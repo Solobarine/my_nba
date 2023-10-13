@@ -36,7 +36,7 @@
 }
 
 .socialLink:hover {
-  transform: translateY(0.2em);
+  transform: translateY(-0.2em);
   margin-top: 300px;
   scale: 1.5;
 }
