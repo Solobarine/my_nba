@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Lobster&display=swap');
+
 :root {
   --accent-one-light: rgb(177, 177, 247);
   --accent-two-light: rgb(19, 19, 78);
@@ -8,6 +10,10 @@
   --accent-two-dark: rgb(40, 40, 163);
   --accent-three-dark: orange;
   --text-dark: #ccc;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
 }
 
 body {
