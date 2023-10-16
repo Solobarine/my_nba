@@ -81,3 +81,10 @@
     padding: 0.6em;
   }
 }
+
+@media (prefers-color-scheme: light) {
+  .team .teamName,
+  .team p {
+    color: #eee;
+  }
+}
