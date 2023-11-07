@@ -1,4 +1,4 @@
-# NBA Teams Information Project
+# My NBA
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@
 
 ## Introduction
 
-The NBA Teams Information Project is a simple web application that provides information about all NBA teams. It allows users to view details and statistics for each team in the National Basketball Association. Whether you're a basketball enthusiast, a data analyst, or just a casual fan, this project can be a valuable resource for exploring the world of NBA teams.
+The My NBA is a simple web application that provides information about all NBA teams. It allows users to view details and statistics for each team in the National Basketball Association. Whether you're a basketball enthusiast, a data analyst, or just a casual fan, this project can be a valuable resource for exploring the world of NBA teams.
 
 ## Live Demo
 
